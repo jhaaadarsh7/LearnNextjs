@@ -15,6 +15,8 @@ export default function RootLayout({ children }) {
             <div className="space-x-4">
               <a href="/" className="hover:text-blue-200">Home</a>
               <a href="/about" className="hover:text-blue-200">About</a>
+              <a href="/projects" className="hover:text-blue-200">Projects</a>
+              <a href="/contact" className="hover:text-blue-200">Contact Us</a>
             </div>
           </div>
         </nav>
