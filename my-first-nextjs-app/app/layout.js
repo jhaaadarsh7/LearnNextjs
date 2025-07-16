@@ -8,7 +8,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body>
+      <body suppressHydrationWarning={true}>
         <nav className="bg-blue-600 text-white p-4">
           <div className="container mx-auto flex justify-between items-center">
             <h1 className="text-xl font-bold">My Next.js App</h1>
